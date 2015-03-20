@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PotterKataTest.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Base\PotterKataTestBase.cs" />
+    <Compile Include="PotterKataTest.SameBooks.cs" />
+    <Compile Include="PotterKataTestBase.Discounts.cs" />
+    <Compile Include="PotterKataTestBase.Set.cs" />
+    <Compile Include="PotterKataTestGeneral.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
