@@ -46,7 +46,7 @@
     <Compile Include="PotterKataTest.SameBooks.cs" />
     <Compile Include="PotterKataTestBase.Discounts.cs" />
     <Compile Include="PotterKataTestBase.Set.cs" />
-    <Compile Include="PotterKataTestGeneral.cs" />
+    <Compile Include="PotterKataTest.General.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
