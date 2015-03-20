@@ -38,7 +38,7 @@ namespace PotterKata.Card.Concrete
         /// <returns></returns>
         public decimal GetTotal()
         {
-            return 0;
+            return _books.Sum(x => x.Cost);
         }
     }
 }
